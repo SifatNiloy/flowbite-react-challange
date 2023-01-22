@@ -2,13 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Shared/Navbar/Navbar';
 import Footer from './components/Shared/Footer/Footer';
+import Home from './components/Pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
 
-     <Navbar></Navbar>
-      <h2 className='text-primary font-bold text-3xl'>primary color checking</h2>
+      <Navbar></Navbar>
+      <Home></Home>
       <Footer></Footer>
     </div>
   );
