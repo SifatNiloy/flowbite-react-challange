@@ -7,7 +7,7 @@ function App() {
     <div className="App">
 
      <Navbar></Navbar>
-
+    <h2 className='text-primary text-3xl'>primary checking</h2>
     </div>
   );
 }
